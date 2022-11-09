@@ -26,7 +26,7 @@ app.get('/products', (req, res) => {
 const router=require("./routes/route")
 // const app=express()
 
-const port=process.env.PORT ||3006;
+const port=process.env.PORT ||4000;
 
 app.use(express.json());
 app.use("/",router)
