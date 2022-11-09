@@ -21,10 +21,7 @@ app.get('/products', (req, res) => {
 
 
 
-// require('dotenv')
-// require("./db/con")
 const router=require("./routes/route")
-// const app=express()
 
 const port=process.env.PORT ||4000;
 
